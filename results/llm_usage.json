@@ -1,0 +1,9 @@
+{
+  "agents": 123,
+  "tokens_total": 3416164,
+  "tool_uses": 824,
+  "wall_clock_s": 992.4,
+  "query_arm_runs": 359,
+  "avg_tokens_per_query_arm": 9516,
+  "note": "concurrency~16; grep agents dominate tokens+tool_uses (iterative search), rerank mid, expand cheap"
+}

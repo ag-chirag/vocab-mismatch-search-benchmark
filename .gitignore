@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Hugging Face / model caches
+.cache/
+*.npy
+
+# Regenerable, license-sensitive (MS MARCO-derived) data — rebuilt by build_corpus.py
+data/
+
+# Large regenerable artifacts (kept out of git; aggregates in results/*.json ARE committed)
+results/det_results.json
+results/llm_raw/
+
+# OS
+.DS_Store

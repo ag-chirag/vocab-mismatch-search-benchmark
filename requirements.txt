@@ -1,0 +1,18 @@
+# Core pipeline (build corpus, deterministic arms, metrics, analysis)
+numpy==2.0.2
+scipy==1.13.1
+scikit-learn==1.6.1
+rank-bm25==0.2.2
+snowballstemmer==3.1.1
+datasets==4.5.0           # streams MS MARCO v2.1 from Hugging Face
+sentence-transformers==5.1.2
+torch==2.8.0              # pulled in by sentence-transformers
+model2vec==0.7.0          # potion static embeddings
+
+# Figures
+matplotlib>=3.8
+
+# Standalone LLM-arm reproduction (run_llm_arms.py) — needs ANTHROPIC_API_KEY
+anthropic>=0.40
+
+# Also required: a ripgrep binary on PATH (`rg`) for the grep arm.
